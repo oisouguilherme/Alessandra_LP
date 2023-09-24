@@ -2,8 +2,8 @@ import { IconCheck } from "@/assets/Icons";
 
 export function SobreProduto() {
   return (
-    <div className="bg-purple-900">
-      <div className="max-w-6xl mx-auto px-4 py-32">
+    <div>
+      <div className="max-w-6xl mx-auto px-4 py-24">
         <h2 className="text-4xl font-bold text-white text-center">
           A partir desse momento,
           <br /> você irá:
