@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export function ComoAssinar() {
   return (
-    <div>
+    <div className="bg-gradient-to-b from-purple-600 to-[#5E0583] w-full">
       <div>
         <div className="max-w-6xl mx-auto px-4 grid grid-cols-2 gap-8 py-24">
           <div>
@@ -13,35 +13,35 @@ export function ComoAssinar() {
               ipsam cumquee?
             </h2>
             <div className="space-y-2 py-8">
-              <div className="bg-purple-400 rounded-md px-4 py-1 flex gap-4 items-center text-white font-medium">
+              <div className="bg-zinc-100 rounded-md px-4 py-3 font-medium flex gap-4 items-center">
                 <Icon1 />
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Excepturi, laudantium.
                 </p>
               </div>
-              <div className="bg-purple-400 rounded-md px-4 py-1 flex gap-4 items-center text-white font-medium">
+              <div className="bg-zinc-100 rounded-md px-4 py-3 font-medium flex gap-4 items-center">
                 <Icon1 />
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Excepturi, laudantium.
                 </p>
               </div>
-              <div className="bg-purple-400 rounded-md px-4 py-1 flex gap-4 items-center text-white font-medium">
+              <div className="bg-zinc-100 rounded-md px-4 py-3 font-medium flex gap-4 items-center">
                 <Icon1 />
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Excepturi, laudantium.
                 </p>
               </div>
-              <div className="bg-purple-400 rounded-md px-4 py-1 flex gap-4 items-center text-white font-medium">
+              <div className="bg-zinc-100 rounded-md px-4 py-3 font-medium flex gap-4 items-center">
                 <Icon1 />
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Excepturi, laudantium.
                 </p>
               </div>
-              <div className="bg-purple-400 rounded-md px-4 py-1 flex gap-4 items-center text-white font-medium">
+              <div className="bg-zinc-100 rounded-md px-4 py-3 font-medium flex gap-4 items-center">
                 <Icon1 />
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -49,8 +49,8 @@ export function ComoAssinar() {
                 </p>
               </div>
             </div>
-            <button className="bg-black w-full text-white py-3 rounded-md font-medium">
-              QUERO TREINAR COM O NOTION
+            <button className="bg-green-500 hover:bg-green-400 duration-300 w-full text-white py-3 rounded-md font-bold">
+              QUERO TREINAR COM O ALESSANDRA
             </button>
             <p className="text-white">
               Lorem ipsum,<strong>dolor sit</strong> amet consectetur

@@ -9,11 +9,8 @@ export default function Home() {
   return (
     <>
       <BannerMain />
-      <div className="bg-gradient-to-tr from-purple-700 via-violet-900 to-purple-700  w-full">
-        <SobreProduto />
-
-        <ComoAssinar />
-      </div>
+      <SobreProduto />
+      <ComoAssinar />
       <Planos />
       <SobreAlessandra />
       <PerguntasFreq />

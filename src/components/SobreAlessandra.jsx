@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export function SobreAlessandra() {
   return (
-    <div className="bg-purple-800">
-      <div className="max-w-6xl mx-auto px-4 text-white py-32 grid grid-cols-2 gap-8 items-center">
+    <div className="bg-gradient-to-bl from-purple-600 to-[#5E0583] w-full">
+      <div className="max-w-6xl mx-auto px-4 text-white py-24 grid grid-cols-2 gap-8 items-center">
         <div className="space-y-4">
           <h2 className="text-4xl font-bold uppercase">
             <span className="text-black">Quem é</span> Alessandra Palma ?
