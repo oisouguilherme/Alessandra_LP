@@ -4,7 +4,7 @@ export function SobreProduto() {
   return (
     <div className="bg-gradient-to-t from-purple-600 to-[#5E0583] w-full">
       <div className="max-w-6xl mx-auto px-4 pt-24">
-        <h2 className="text-4xl font-bold text-white text-center">
+        <h2 className="text-2xl sm:text-4xl font-bold text-white text-center">
           A partir desse momento,
           <br /> você irá:
         </h2>

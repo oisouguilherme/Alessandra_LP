@@ -4,9 +4,9 @@ import Image from "next/image";
 export function SobreAlessandra() {
   return (
     <div className="bg-gradient-to-bl from-purple-600 to-[#5E0583] w-full">
-      <div className="max-w-6xl mx-auto px-4 text-white py-24 grid grid-cols-2 gap-8 items-center">
+      <div className="max-w-6xl mx-auto px-4 text-white py-24 grid md:grid-cols-2 gap-8 items-center">
         <div className="space-y-4">
-          <h2 className="text-4xl font-bold uppercase">
+          <h2 className="text-2xl sm:text-4xl font-bold uppercase">
             <span className="text-black">Quem é</span> Alessandra Palma ?
           </h2>
           <p>
@@ -27,8 +27,8 @@ export function SobreAlessandra() {
             dolor fugit eius.
           </p>
         </div>
-        <div className="flex justify-end">
-          <Image src={Ale} className="w-[80%]" />
+        <div className="flex justify-center md:justify-end">
+          <Image src={Ale} className="md:w-[80%]" />
         </div>
       </div>
     </div>

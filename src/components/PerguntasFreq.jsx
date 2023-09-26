@@ -4,7 +4,7 @@ import { useState } from "react";
 export function PerguntasFreq() {
   return (
     <div className="bg-gradient-to-tl from-purple-600 to-[#5E0583] w-full">
-      <div className="max-w-6xl mx-auto pb-24">
+      <div className="max-w-6xl mx-auto pb-24 px-4">
         <div className="uppercase text-white text-lg">
           <p>Ainda tem dúvidas?</p>
           <h2 className="text-4xl font-bold">Perguntas frequentes</h2>
@@ -64,12 +64,12 @@ export function Card({ pergunta, resposta }) {
   };
 
   return (
-    <div className="border border-gray-200 text-white rounded-md p-3 w-1/2">
+    <div className="border border-gray-200 text-white rounded-md p-3 md:w-1/2">
       <div
         className="flex justify-between items-center cursor-pointer gap-4"
         onClick={toggleAccordion}
       >
-        <h2 className="font-semibold">{pergunta}</h2>
+        <h2 className="font-medium">{pergunta}</h2>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className={`h-12 w-12 transform ${
@@ -87,7 +87,7 @@ export function Card({ pergunta, resposta }) {
           />
         </svg>
       </div>
-      {isOpen && <p className="mt-1">{resposta}</p>}
+      {isOpen && <p className="mt-1 text-sm">{resposta}</p>}
     </div>
   );
 }

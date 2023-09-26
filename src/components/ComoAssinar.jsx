@@ -6,9 +6,9 @@ export function ComoAssinar() {
   return (
     <div className="bg-gradient-to-b from-purple-600 to-[#5E0583] w-full">
       <div>
-        <div className="max-w-6xl mx-auto px-4 grid grid-cols-2 gap-8 py-24">
+        <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-8 py-24">
           <div>
-            <h2 className="text-3xl font-bold text-white">
+            <h2 className="text-2xl sm:text-3xl font-bold text-white">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, et
               ipsam cumquee?
             </h2>
@@ -50,14 +50,14 @@ export function ComoAssinar() {
               </div>
             </div>
             <button className="bg-green-500 hover:bg-green-400 duration-300 w-full text-white py-3 rounded-md font-bold">
-              QUERO TREINAR COM O ALESSANDRA
+              QUERO TREINAR COM A ALESSANDRA
             </button>
             <p className="text-white">
               Lorem ipsum,<strong>dolor sit</strong> amet consectetur
               adipisicing.
             </p>
           </div>
-          <div className="flex items-center justify-end">
+          <div className="flex items-center justify-center md:justify-end">
             <Image src={Ale} className="w-[80%]" />
           </div>
         </div>
