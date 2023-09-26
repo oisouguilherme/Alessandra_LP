@@ -11,8 +11,14 @@ export function PerguntasFreq() {
         </div>
         <div className="space-y-3 pt-12 flex flex-col">
           <Card
+            pergunta={"Quero me inscrever, como faço?"}
+            resposta={
+              " dicta amet rem provident natus, architecto voluptas a quidem voluptates eveniet obcaecati est tempore nesciunt eaque veritatis molestias."
+            }
+          />
+          <Card
             pergunta={
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit harum dolores doloremque,"
+              "Quais os planos existentes apenas do Perfil Privado ETN?"
             }
             resposta={
               " dicta amet rem provident natus, architecto voluptas a quidem voluptates eveniet obcaecati est tempore nesciunt eaque veritatis molestias."
@@ -20,7 +26,15 @@ export function PerguntasFreq() {
           />
           <Card
             pergunta={
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit harum dolores doloremque,"
+              "Quais as formas de pagamento no Perfil Privado ETN?"
+            }
+            resposta={
+              "O Perfil Privado ETN pode ser assinado somente via cartão de crédito"
+            }
+          />
+          <Card
+            pergunta={
+              "Tenho algumas restrições médicas e de movimentos, o ETN é para mim?"
             }
             resposta={
               " dicta amet rem provident natus, architecto voluptas a quidem voluptates eveniet obcaecati est tempore nesciunt eaque veritatis molestias."
@@ -28,23 +42,7 @@ export function PerguntasFreq() {
           />
           <Card
             pergunta={
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit harum dolores doloremque,"
-            }
-            resposta={
-              " dicta amet rem provident natus, architecto voluptas a quidem voluptates eveniet obcaecati est tempore nesciunt eaque veritatis molestias."
-            }
-          />
-          <Card
-            pergunta={
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit harum dolores doloremque,"
-            }
-            resposta={
-              " dicta amet rem provident natus, architecto voluptas a quidem voluptates eveniet obcaecati est tempore nesciunt eaque veritatis molestias."
-            }
-          />
-          <Card
-            pergunta={
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit harum dolores doloremque,"
+              "Quero cancelar o meu acesso ao Perfil Privado ETN. Como faço?"
             }
             resposta={
               " dicta amet rem provident natus, architecto voluptas a quidem voluptates eveniet obcaecati est tempore nesciunt eaque veritatis molestias."
@@ -64,7 +62,7 @@ export function Card({ pergunta, resposta }) {
   };
 
   return (
-    <div className="border border-gray-200 text-white rounded-md p-3 md:w-1/2">
+    <div className="border border-gray-200 text-white rounded-md py-1 px-3 md:w-1/2">
       <div
         className="flex justify-between items-center cursor-pointer gap-4"
         onClick={toggleAccordion}
@@ -72,7 +70,7 @@ export function Card({ pergunta, resposta }) {
         <h2 className="font-medium">{pergunta}</h2>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className={`h-12 w-12 transform ${
+          className={`h-8 w-8 transform ${
             isOpen ? "rotate-180" : "rotate-0"
           }`}
           fill="none"

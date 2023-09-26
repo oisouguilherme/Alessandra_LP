@@ -2,8 +2,8 @@ export function IconCheck() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="64"
-      height="64"
+      width="44"
+      height="44"
       fill="#5E0583"
       class="bi bi-patch-check"
       viewBox="0 0 16 16"
@@ -21,8 +21,8 @@ export function Icon1() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="48"
-      height="48"
+      width="44"
+      height="44"
       fill="#5E0583"
       class="bi bi-1-square"
       viewBox="0 0 16 16"
