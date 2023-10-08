@@ -18,7 +18,7 @@ export function PerguntasFreq() {
           />
           <Card
             pergunta={
-              "Quais os planos existentes apenas do Perfil Privado ETN?"
+              "Quais os planos existentes apenas do Perfil Privado Alê Treinos?"
             }
             resposta={
               " dicta amet rem provident natus, architecto voluptas a quidem voluptates eveniet obcaecati est tempore nesciunt eaque veritatis molestias."
@@ -26,7 +26,7 @@ export function PerguntasFreq() {
           />
           <Card
             pergunta={
-              "Quais as formas de pagamento no Perfil Privado ETN?"
+              "Quais as formas de pagamento no Perfil Privado Alê Treinos?"
             }
             resposta={
               "O Perfil Privado ETN pode ser assinado somente via cartão de crédito"
@@ -34,7 +34,7 @@ export function PerguntasFreq() {
           />
           <Card
             pergunta={
-              "Tenho algumas restrições médicas e de movimentos, o ETN é para mim?"
+              "Tenho algumas restrições médicas e de movimentos, o Alê Treinos é para mim?"
             }
             resposta={
               " dicta amet rem provident natus, architecto voluptas a quidem voluptates eveniet obcaecati est tempore nesciunt eaque veritatis molestias."
@@ -42,7 +42,7 @@ export function PerguntasFreq() {
           />
           <Card
             pergunta={
-              "Quero cancelar o meu acesso ao Perfil Privado ETN. Como faço?"
+              "Quero cancelar o meu acesso ao Perfil Privado Alê Treinos. Como faço?"
             }
             resposta={
               " dicta amet rem provident natus, architecto voluptas a quidem voluptates eveniet obcaecati est tempore nesciunt eaque veritatis molestias."

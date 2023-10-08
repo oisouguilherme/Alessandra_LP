@@ -9,8 +9,7 @@ export function ComoAssinar() {
         <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-8 py-24">
           <div>
             <h2 className="text-2xl sm:text-3xl font-bold text-white">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, et
-              ipsam cumquee?
+              Siga Estes 5 Passos para Alcançar Seus Objetivos Fitness
             </h2>
             <div className="space-y-2 py-8">
               <div className="bg-zinc-100 rounded-md px-4 py-3 flex gap-4 items-center">

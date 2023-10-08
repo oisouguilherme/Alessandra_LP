@@ -6,8 +6,8 @@ export function BannerMain() {
           <div className="max-w-6xl mx-auto">
             <h2 className="text-xl sm:text-4xl font-bold text-white text-center pb-10">
               Transforme seu corpo, supere seus limites e conquiste resultados
-              incríveis com treinos exclusivos no perfil privado
-              @seuinstafitnessVIP
+              incríveis com treinos exclusivos no perfil privado <br />
+              @AlêTreinos
             </h2>
             <div className="text-white text-center space-y-3 max-w-lg mx-auto">
               <button className="bg-black text-white w-full py-4 rounded-md font-medium uppercase">
