@@ -4,7 +4,10 @@ import Image from "next/image";
 
 export function ComoAssinar() {
   return (
-    <div className="bg-gradient-to-b from-purple-600 to-[#5E0583] w-full">
+    <div
+      id="comprar"
+      className="bg-gradient-to-b from-purple-600 to-[#5E0583] w-full"
+    >
       <div>
         <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-8 py-24">
           <div data-aos="fade-down" data-aos-easing="linear">
