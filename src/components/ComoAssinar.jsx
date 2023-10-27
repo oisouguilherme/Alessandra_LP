@@ -1,5 +1,5 @@
-import { Icon1 } from "@/assets/Icons";
-import Ale from "../assets/ale2.png";
+import { Icon1, Icon2, Icon3, Icon4, Icon5 } from "@/assets/Icons";
+import Ale from "../assets/passoApasso.png";
 import Image from "next/image";
 
 export function ComoAssinar() {
@@ -7,7 +7,7 @@ export function ComoAssinar() {
     <div className="bg-gradient-to-b from-purple-600 to-[#5E0583] w-full">
       <div>
         <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-8 py-24">
-          <div>
+          <div data-aos="fade-down" data-aos-easing="linear">
             <h2 className="text-2xl sm:text-3xl font-bold text-white">
               Siga Estes 5 Passos para Alcançar Seus Objetivos Fitness
             </h2>
@@ -23,7 +23,7 @@ export function ComoAssinar() {
               </div>
               <div className="bg-zinc-100 rounded-md px-4 py-3 flex gap-4 items-center">
                 <div>
-                  <Icon1 />
+                  <Icon2 />
                 </div>
                 <p>
                   Após selecionar o plano desejado, prossiga para o pagamento.
@@ -32,7 +32,7 @@ export function ComoAssinar() {
               </div>
               <div className="bg-zinc-100 rounded-md px-4 py-3 flex gap-4 items-center">
                 <div>
-                  <Icon1 />
+                  <Icon3 />
                 </div>
                 <p>
                   Após efetuar o pagamento, o próximo passo é solicitar o acesso
@@ -41,7 +41,7 @@ export function ComoAssinar() {
               </div>
               <div className="bg-zinc-100 rounded-md px-4 py-3 flex gap-4 items-center">
                 <div>
-                  <Icon1 />
+                  <Icon4 />
                 </div>
                 <p>
                   Assim que você solicitar o acesso e o nosso sistema
@@ -51,7 +51,7 @@ export function ComoAssinar() {
               </div>
               <div className="bg-zinc-100 rounded-md px-4 py-3 flex gap-4 items-center">
                 <div>
-                  <Icon1 />
+                  <Icon5 />
                 </div>
                 <p>
                   Esteja pronto para começar a treinar! Os treinos estão
@@ -66,7 +66,11 @@ export function ComoAssinar() {
               A partir de <strong>R$26,67/mês</strong> no plano anual
             </p>
           </div>
-          <div className="flex items-center justify-center md:justify-end">
+          <div
+            className="flex items-center justify-center md:justify-end"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+          >
             <Image src={Ale} className="w-[80%]" />
           </div>
         </div>

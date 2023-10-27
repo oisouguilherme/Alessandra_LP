@@ -1,16 +1,16 @@
 export function Footer() {
   return (
-    <div className="bg-gradient-to-bl from-purple-600 to-[#5E0583]">
+    <div className="bg-gradient-to-r from-purple-600 to-[#5E0583]">
       <div className="text-center text-white max-w-6xl mx-auto pb-2">
-        <h2 className="text-xl sm:text-2xl font-black py-8">
+        <h2 className="text-xl sm:text-2xl font-black pt-4">
           ALESSANDRA <br /> PALMA
         </h2>
-        <div className="flex justify-between text-sm">
+        <div className="flex flex-wrap justify-center sm:justify-between text-sm px-4 gap-2">
           <p>Todos os direitos reservados © 2023</p>
           <a
             href="https://guilherme-portfolio-frontend.netlify.app/"
             target="_blank"
-            className="flex items-center gap-2"
+            className="flex items-center gap-2 text-xs"
           >
             Desenvolvido por DevMilitão
             <svg
