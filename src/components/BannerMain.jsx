@@ -1,10 +1,21 @@
+import Image from "next/image";
+import { Link } from "react-scroll";
+
 export function BannerMain() {
   return (
     <div className="bg-[url('/bannerMobile.png')] md:bg-[url('/banner.png')] bg-no-repeat bg-cover bg-center md:bg-top relative">
-      <div className="px-4 h-screen w-full">
+      <Link to="comprar" smooth={true}>
+        <Image
+          src={"/bannerMobile.png"}
+          width={800}
+          height={800}
+          className="w-full md:hidden"
+        />
+      </Link>
+      <div className="px-4 h-screen w-full hidden md:block">
         <div className="text-white text-center max-w-6xl mx-auto h-full flex items-end justify-end">
           <div
-            className="space-y-3 pb-12 hidden md:block"
+            className="space-y-3 pb-12"
             data-aos="fade-left"
             data-aos-easing="linear"
           >
