@@ -10,25 +10,25 @@ export function SobreAlessandra() {
             Quem é Alessandra Palma ?
           </h2>
           <p className="text-justify">
-            Alessandra é uma profissional apaixonada e dedicada, com uma
-            carreira sólida como Personal Trainer e Nutricionista. Como
-            proprietária da academia Mundo Fitness, ela tem se destacado no
-            mundo do condicionamento físico e bem-estar.
+            Alessandra é uma Personal Trainer apaixonada e comprometida em
+            fornecer treinos personalizados de alta qualidade. Sua experiência
+            consolidada e abordagem singular capacitam indivíduos a atingirem
+            seus objetivos de saúde e condicionamento físico.
           </p>
           <p className="text-justify">
-            Recentemente, Alessandra expandiu seus horizontes, incorporando
-            áreas diversificadas, como natação, balé e treino funcional no
-            repertório de sua academia.
+            Com a recente incursão em treinos ao vivo no Instagram, Alessandra
+            oferece uma oportunidade única para você se envolver em uma jornada
+            de fitness personalizada, onde cada sessão é uma chance de superar
+            limites e alcançar seu melhor desempenho. Sua paixão por promover um
+            estilo de vida saudável é evidente em cada treino ao vivo,
+            permitindo que você mergulhe em uma experiência de treino interativo
+            e eficaz.
           </p>
           <p className="text-justify">
-            Sua abordagem única e personalizada para treinamento, combinada com
-            sua expertise em nutrição, tem transformado vidas, capacitando seus
-            clientes a atingirem seus objetivos de saúde e fitness.
-          </p>
-          <p className="text-justify">
-            Seja bem-vindo ao universo de Alessandra, onde a excelência e a
-            dedicação se unem para impulsionar seu sucesso no Instagram, com
-            treinos ao vivo de alta qualidade.
+            Explore um novo mundo de condicionamento físico e bem-estar sob a
+            orientação de Alessandra. Junte-se a nós no Instagram para vivenciar
+            treinos ao vivo de qualidade excepcional e embarque em uma jornada
+            rumo aos seus objetivos de saúde, fitness e bem-estar.
           </p>
         </div>
         <div className="flex justify-center md:justify-end">

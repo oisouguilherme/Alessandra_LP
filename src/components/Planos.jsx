@@ -1,4 +1,8 @@
-import { LuCheck } from "react-icons/lu";
+import Image from "next/image";
+import Link from "next/link";
+import Ale from "../assets/ale2.png";
+import Logo from "../assets/logo.png";
+import { IconCheck2 } from "@/assets/Icons";
 
 export function Planos() {
   return (
@@ -8,111 +12,77 @@ export function Planos() {
           ESCOLHA O <span className="text-[#5E0583]">MELHOR PLANO</span>
           <br /> PARA VOCÊ
         </h2>
-        <div className="flex flex-wrap items-center justify-center gap-8">
-          <div className="border-2 border-[#5E0583] p-8 w-72 h-fit flex flex-col gap-8 hover:scale-105 duration-300 cursor-pointer">
-            <p className="text-lg text-center font-bold text-[#5E0583]">
-              MUSCULAÇÃO
-            </p>
-            <div className="flex gap-4 font-bold items-center justify-center">
-              <p className="text-4xl ">R$90</p>
-              <p>p/mês</p>
+        <div className="grid md:grid-cols-2 gap-4 items-center">
+          <div className="px-4 sm:px-8 py-4 text-white max-w-md rounded-md bg-gradient-to-bl from-purple-600 to-[#5E0583] mx-auto">
+            <div className="text-center flex flex-col items-center sm:text-lg">
+              <Image src={Logo} className="w-[70%] pb-4" />
+              <p className="font-bold">GARANTA O SEU ACESSO</p>
+              <p>a Treinos Diários Exclusivos por apenas:</p>
             </div>
-            <div className="space-y-4">
-              <p className="flex items-start gap-2">
-                <LuCheck size="20px" />
-                Acesso Livre à Área de Musculação
+            <div className="py-4 text-center uppercase">
+              <p>
+                de <span className="text-red-500">119,90</span> por R$ 99,00 ao
+                mês ou
               </p>
-              <p className="flex items-center gap-2">
-                <LuCheck size="20px" />
-                Treinos Personalizados
-              </p>
-              <p className="flex items-center gap-2">
-                <LuCheck size="20px" /> Foco em Resultados
-              </p>
-              <p className="flex items-center gap-2">
-                <LuCheck size="20px" />
-                Flexibilidade de Horários
-              </p>
-              <p className="flex items-center gap-2">
-                <LuCheck size="20px" />
-                Ambiente Motivador
+              <p className="font-bold text-xl">
+                por <span className="text-3xl">250,00</span> à vista!
               </p>
             </div>
-            <a
-              href="#"
-              className="bg-[#5E0583] duration-300 text-center py-2 text-white font-medium"
+            <div className="space-y-4 pt-4">
+              <div className="flex items-center gap-4 text-sm sm:text-lg border-b pb-2">
+                <IconCheck2 color={"fill-green-500"} />{" "}
+                <span>Treinos ao vivo</span>
+              </div>
+              <div className="flex items-center gap-4 text-sm sm:text-lg border-b pb-2">
+                <IconCheck2 color={"fill-green-500"} />{" "}
+                <span>Acompanhamento aproximado</span>
+              </div>
+              <div className="flex items-center gap-4 text-sm sm:text-lg border-b pb-2">
+                <IconCheck2 color={"fill-green-500"} />{" "}
+                <span>Materiais complementares</span>
+              </div>
+              <div className="flex items-center gap-4 text-sm sm:text-lg border-b pb-2">
+                <IconCheck2 color={"fill-green-500"} />{" "}
+                <span>Suporte Individual</span>
+              </div>
+              <div className="flex items-center gap-4 text-sm sm:text-lg border-b pb-2">
+                <IconCheck2 color={"fill-green-500"} />{" "}
+                <span>Perfil privado para membros</span>
+              </div>
+              <div className="flex items-center gap-4 text-sm sm:text-lg pb-2">
+                <IconCheck2 color={"fill-green-500"} />{" "}
+                <span>
+                  <span className="text-green-500 font-bold">[BÔNUS] </span>
+                  E-Book sobre...
+                </span>
+              </div>
+            </div>
+            <Link
+              className="bg-green-500 uppercase hover:bg-green-400 duration-300 w-full text-white py-3 rounded-md font-bold block text-center mt-6"
+              href={""}
             >
-              Saiba Mais
-            </a>
+              Quero treinar com Alessandra
+            </Link>
           </div>
-
-          <div className="border-2 bg-[#5E0583] text-white p-8 w-72 h-[520px] flex flex-col gap-8 hover:scale-105 duration-300 cursor-pointer">
-            <p className="text-lg text-center font-bold text-white">COMPLETO</p>
-            <div className="flex gap-4 font-bold items-center justify-center">
-              <p className="text-4xl ">R$120</p>
-              <p>p/mês</p>
-            </div>
-            <div className="space-y-4">
-              <p className="flex items-start gap-2">
-                <LuCheck size="20px" />
-                Acesso a Todas as Modalidades
-              </p>
-              <p className="flex items-center gap-2">
-                <LuCheck size="20px" />
-                Abordagem Fitness Integral
-              </p>
-              <p className="flex items-center gap-2">
-                <LuCheck size="20px" />
-                Variedade de Treinos
-              </p>
-              <p className="flex items-center gap-2">
-                <LuCheck size="20px" /> Resultados Amplos
-              </p>
-              <p className="flex items-center gap-2">
-                <LuCheck size="20px" />
-                Suporte Personalizado
-              </p>
-            </div>
-            <a
-              href="#"
-              className="bg-white text-center py-2 duration-300 text-[#5E0583] font-medium"
-            >
-              Saiba Mais
-            </a>
-          </div>
-
-          <div className="border-2 border-[#5E0583] p-8 w-72  h-fit flex flex-col gap-8 hover:scale-105 duration-300 cursor-pointer">
-            <p className="text-lg text-center font-bold text-[#5E0583]">
-              FUNCIONAL
+          <div className="space-y-4">
+            <h2 className="font-bold text-2xl text-[#5E0583]">
+              Transforme-se com consistência!
+            </h2>
+            <p className="text-justify">
+              Opte por nosso plano anual exclusivo e mergulhe em uma jornada de
+              treinos diários contínuos. Por apenas{" "}
+              <strong className="text-[#5E0583]">12x de R$ 32,90 ao mês</strong>
+              , você garante acesso completo por um ano, potencializando seus
+              resultados enquanto economiza. E não se preocupe: estamos
+              comprometidos com sua satisfação. Oferecemos garantia de
+              <strong className="text-[#5E0583]">
+                {" "}
+                devolução em até 7 dias
+              </strong>
+              , caso sinta que este programa não é para você. Sua segurança e
+              contentamento são nossa prioridade absoluta.
             </p>
-            <div className="flex gap-4 font-bold items-center justify-center">
-              <p className="text-4xl ">R$70</p>
-              <p>p/mês</p>
-            </div>
-            <div className="space-y-4">
-              <p className="flex items-start gap-2">
-                <LuCheck size="20px" /> Variedade de Treinos
-              </p>
-              <p className="flex items-center gap-2">
-                <LuCheck size="20px" /> Aulas Dinâmicas e Divertidas
-              </p>
-              <p className="flex items-center gap-2">
-                <LuCheck size="20px" />
-                Queime Calorias
-              </p>
-              <p className="flex items-center gap-2">
-                <LuCheck size="20px" /> Melhore a Flexibilidade
-              </p>
-              <p className="flex items-center gap-2">
-                <LuCheck size="20px" /> Adaptação para Todos os Níveis
-              </p>
-            </div>
-            <a
-              href="#"
-              className="bg-[#5E0583] duration-300 text-center py-2 text-white font-medium"
-            >
-              Saiba Mais
-            </a>
+            <Image src={"/banner2.png"} width={800} height={400} />
           </div>
         </div>
       </div>
