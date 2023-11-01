@@ -18,7 +18,7 @@ export function SobreProduto() {
               <IconCheck />
             </div>
             <p>
-              Transforme seu corpo e mente, e veja no espelho a melhor versão de
+              Transformar seu corpo e mente, e ver no espelho a melhor versão de
               si mesmo.
             </p>
           </div>
@@ -31,8 +31,8 @@ export function SobreProduto() {
               <IconCheck />
             </div>
             <p>
-              Vista-se com confiança e estilo, sabendo que todas as roupas
-              ficarão ótimas em você.
+              Vestir com confiança e estilo, sabendo que todas as roupas ficarão
+              ótimas em você.
             </p>
           </div>
           <div
@@ -43,7 +43,7 @@ export function SobreProduto() {
             <div>
               <IconCheck />
             </div>
-            <p>Aumente sua autoestima e sinta-se incrível todos os dias.</p>
+            <p>Aumentar sua autoestima e se sintir incrível todos os dias.</p>
           </div>
           <div
             className="bg-[#5E0583] hover:bg-purple-800 text-white duration-300 text-sm cursor-pointer shadow-xl w-80 h-24 px-4 rounded-md flex items-center gap-4"
@@ -54,8 +54,8 @@ export function SobreProduto() {
               <IconCheck />
             </div>
             <p>
-              Aprenda a aceitar e amar o seu corpo, independentemente de sua
-              forma ou tamanho.
+              Desenvolver disciplina para atingir seus objetivos e manter o foco
+              em seus sonhos e aspirações.
             </p>
           </div>
           <div
@@ -67,20 +67,7 @@ export function SobreProduto() {
               <IconCheck />
             </div>
             <p>
-              Desenvolva disciplina para atingir seus objetivos e mantenha o
-              foco em seus sonhos e aspirações.
-            </p>
-          </div>
-          <div
-            className="bg-[#5E0583] hover:bg-purple-800 text-white duration-300 text-sm cursor-pointer shadow-xl w-80 h-24 px-4 rounded-md flex items-center gap-4"
-            data-aos="fade-up"
-            data-aos-easing="linear"
-          >
-            <div>
-              <IconCheck />
-            </div>
-            <p>
-              Descubra o prazer de viver uma vida mais saudável, cheia de
+              Descobrir o prazer de viver uma vida mais saudável, cheia de
               energia e vitalidade.
             </p>
           </div>

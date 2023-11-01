@@ -9,6 +9,7 @@ import { SobreProduto } from "@/components/SobreProduto";
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { TemPrograma } from "@/components/TemPrograma";
 
 export default function Home() {
   useEffect(() => {
@@ -20,8 +21,9 @@ export default function Home() {
       <BannerMain />
       <SobreProduto />
       <ComoAssinar />
-      <Planos />
+      <TemPrograma />
       <SobreAlessandra />
+      <Planos />
       <PerguntasFreq />
       <Footer />
     </>

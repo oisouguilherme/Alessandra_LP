@@ -12,7 +12,7 @@ export function ComoAssinar() {
         <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-8 py-24">
           <div data-aos="fade-down" data-aos-easing="linear">
             <h2 className="text-2xl sm:text-3xl font-bold text-white">
-              Siga Estes 5 Passos para Alcançar Seus Objetivos Fitness
+              Siga Estes 5 Passos para Alcançar Sua melhor versão
             </h2>
             <div className="space-y-2 py-8">
               <div className="bg-zinc-100 rounded-md px-4 py-3 flex gap-4 items-center">
@@ -63,10 +63,10 @@ export function ComoAssinar() {
               </div>
             </div>
             <button className="bg-green-500 hover:bg-green-400 duration-300 w-full text-white py-3 rounded-md font-bold">
-              QUERO TREINAR COM A ALESSANDRA
+              QUERO TREINAR COM A ALÊ
             </button>
             <p className="text-white text-center">
-              A partir de <strong>R$26,67/mês</strong> no plano anual
+              A partir de <strong>R$32,90/mês</strong> no plano anual
             </p>
           </div>
           <div

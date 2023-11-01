@@ -20,10 +20,10 @@ export function BannerMain() {
             data-aos-easing="linear"
           >
             <button className="bg-green-500 hover:bg-green-400 duration-300 text-white w-full py-2 sm:py-4 text-sm sm:text-base px-24 rounded-md font-medium uppercase">
-              Quero treinar com Alessandra
+              QUERO TREINAR COM A ALÊ
             </button>
             <p>
-              A partir de <strong>R$26,67/mês</strong> no plano anual
+              A partir de <strong>R$32,90/mês</strong> no plano anual
             </p>
           </div>
         </div>
