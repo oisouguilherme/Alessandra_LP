@@ -12,14 +12,18 @@ export function Planos() {
         <div className="flex justify-center md:justify-between flex-wrap items-center gap-4">
           <div className="rounded-lg border-4 border-[#5E0583] w-full sm:w-72 py-8 hover:scale-105 duration-300 cursor-pointer">
             <h3 className="uppercase text-lg font-medium text-center">
-              PLANO MENSAL
+              PLANO SEMESTRAL
             </h3>
-            <div className="text-center py-8">
+            <div className="text-center py-6">
+              <span className="text-sm">6X DE</span>
               <div className="flex gap-1 items-start uppercase justify-center">
-                <p className="text-9xl font-black text-[#5E0583]">99</p>
+                <p className="text-9xl font-black text-[#5E0583]">49</p>
                 <div className="flex flex-col">
                   <span className="text-5xl font-black text-[#5E0583]">90</span>
                   <span className="text-lg font-medium">/mês</span>
+                  <span className="text-xs">
+                    ou 299,40 <br /> À vista
+                  </span>
                 </div>
               </div>
             </div>
@@ -68,18 +72,14 @@ export function Planos() {
 
           <div className="rounded-lg border-4 border-[#5E0583] w-full sm:w-72 py-8 hover:scale-105 duration-300 cursor-pointer">
             <h3 className="uppercase text-lg font-medium text-center">
-              PLANO SEMESTRAL
+              PLANO MENSAL
             </h3>
-            <div className="text-center py-6">
-              <span className="text-sm">6X DE</span>
+            <div className="text-center py-8">
               <div className="flex gap-1 items-start uppercase justify-center">
-                <p className="text-9xl font-black text-[#5E0583]">49</p>
+                <p className="text-9xl font-black text-[#5E0583]">99</p>
                 <div className="flex flex-col">
                   <span className="text-5xl font-black text-[#5E0583]">90</span>
                   <span className="text-lg font-medium">/mês</span>
-                  <span className="text-xs">
-                    ou 299,40 <br /> À vista
-                  </span>
                 </div>
               </div>
             </div>
