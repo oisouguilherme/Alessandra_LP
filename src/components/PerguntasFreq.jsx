@@ -22,7 +22,7 @@ export function PerguntasFreq() {
                   "Quais os planos existentes apenas do Perfil Privado Alê Treinos?"
                 }
                 resposta={
-                  " dicta amet rem provident natus, architecto voluptas a quidem voluptates eveniet obcaecati est tempore nesciunt eaque veritatis molestias."
+                  "Plano Anual, 12x de R$32,90 ou R$394,80 a vista. Plano Semestral, 6x e R$49,90 ou R$299,40 a vista. Plano Mensal, por apenas R$99,90/mês"
                 }
               />
               <Card
@@ -30,7 +30,7 @@ export function PerguntasFreq() {
                   "Quais as formas de pagamento no Perfil Privado Alê Treinos?"
                 }
                 resposta={
-                  "O Perfil Privado Alê Treinos pode ser assinado via cartão de crédito, PIX ou boleto."
+                  "O Perfil Privado Alê Treinos pode ser assinado via cartão de crédito ou PIX."
                 }
               />
               <Card

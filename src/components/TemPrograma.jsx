@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import Logo from "../assets/logo.png";
 import { IconCheck2 } from "@/assets/Icons";
+import ImageAntesDepois from "../assets/antesDepois.png";
+import ImageAntesDepois2 from "../assets/antesDepois2.png";
 
 export function TemPrograma() {
   return (
@@ -20,7 +22,7 @@ export function TemPrograma() {
               <div className="space-y-4 ">
                 <div className="flex items-center gap-4 border-b pb-2">
                   <IconCheck2 color={"fill-green-500"} />{" "}
-                  <span>Treinos gravados e ao vivo</span>
+                  <span>Treinos ao vivo todos os dias</span>
                 </div>
                 <div className="flex items-center gap-4 border-b pb-2">
                   <IconCheck2 color={"fill-green-500"} />{" "}
@@ -82,7 +84,7 @@ export function TemPrograma() {
                       Instrução para dores em articulações:
                     </span>{" "}
                     <br />
-                    Videos que irão te ajudar na prevenção de Lessões.
+                    Videos que irão te ajudar na prevenção de Lesões.
                   </span>
                 </div>
               </div>
@@ -93,6 +95,15 @@ export function TemPrograma() {
             >
               Quero treinar com Alessandra
             </Link>
+          </div>
+        </div>
+
+        <div className="flex pt-8 gap-4 justify-center flex-wrap">
+          <div className="sm:w-96">
+            <Image src={ImageAntesDepois} />
+          </div>
+          <div className="sm:w-96">
+            <Image src={ImageAntesDepois2} />
           </div>
         </div>
       </div>
