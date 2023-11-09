@@ -12,7 +12,7 @@ export function ComoAssinar() {
         <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-8 py-24">
           <div data-aos="fade-down" data-aos-easing="linear">
             <h2 className="text-2xl sm:text-3xl font-bold text-white">
-              Siga Estes 5 Passos para Alcançar Sua melhor versão
+              Siga esses passos para alcançar a sua melhor versão:
             </h2>
             <div className="space-y-2 py-8">
               <div className="bg-zinc-100 rounded-md px-4 py-3 flex gap-4 items-center">
@@ -20,8 +20,8 @@ export function ComoAssinar() {
                   <Icon1 />
                 </div>
                 <p>
-                  Comece escolhendo o plano de assinatura que melhor se adapta
-                  às suas necessidades.
+                  Escolha o plano de assinatura que melhor se adapta às suas
+                  necessidades.
                 </p>
               </div>
               <div className="bg-zinc-100 rounded-md px-4 py-3 flex gap-4 items-center">
@@ -30,7 +30,7 @@ export function ComoAssinar() {
                 </div>
                 <p>
                   Após selecionar o plano desejado, prossiga para o pagamento.
-                  Aceitamos cartão de crédito e Pix para maior comodidade.
+                  (Aceitamos cartão de crédito e pix).
                 </p>
               </div>
               <div className="bg-zinc-100 rounded-md px-4 py-3 flex gap-4 items-center">
@@ -58,7 +58,7 @@ export function ComoAssinar() {
                 </div>
                 <p>
                   Esteja pronto para começar a treinar! Os treinos estão
-                  agendados diariamente às 8h e às 20h.
+                  agendados diariamente em nosso perfil privado do Instagram.
                 </p>
               </div>
             </div>
@@ -66,7 +66,7 @@ export function ComoAssinar() {
               QUERO TREINAR COM A ALÊ
             </button>
             <p className="text-white text-center">
-              A partir de <strong>R$32,90/mês</strong> no plano anual
+              A partir de <strong>R$29,90/mês</strong> no plano anual
             </p>
           </div>
           <div

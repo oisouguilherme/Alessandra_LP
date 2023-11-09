@@ -26,7 +26,7 @@ export function TemPrograma() {
                 </div>
                 <div className="flex items-center gap-4 border-b pb-2">
                   <IconCheck2 color={"fill-green-500"} />{" "}
-                  <span>Acompanhamento aproximado</span>
+                  <span>Acompanhamento personalizado.</span>
                 </div>
                 <div className="flex items-center gap-4 border-b pb-2">
                   <IconCheck2 color={"fill-green-500"} />{" "}
@@ -46,7 +46,7 @@ export function TemPrograma() {
                 </div>
                 <div className="flex items-center gap-4 pb-2">
                   <IconCheck2 color={"fill-green-500"} />{" "}
-                  <span>Lives gravadas, acesse quando e onde quiser </span>
+                  <span>Lives gravadas para acessar quando e onde quiser</span>
                 </div>
               </div>
               <div>
@@ -71,8 +71,8 @@ export function TemPrograma() {
                       Acompanhamento Nutricional:
                     </span>{" "}
                     <br />
-                    Contaremos com apoio de nossa nutricoionaista no programa,
-                    que vai te auxiliar na sua alimentação.
+                    Contaremos com apoio de uma nutricionista no programa.
+                    Auxiliando a sua alimentação.
                   </span>
                 </div>
                 <div className="flex gap-2 pb-2">
@@ -84,7 +84,7 @@ export function TemPrograma() {
                       Instrução para dores em articulações:
                     </span>{" "}
                     <br />
-                    Videos que irão te ajudar na prevenção de Lesões.
+                    Vídeos explicativos para a prevenção de lesões.
                   </span>
                 </div>
               </div>

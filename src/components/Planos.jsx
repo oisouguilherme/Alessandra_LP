@@ -17,7 +17,7 @@ export function Planos() {
             <div className="text-center py-8">
               <span className="text-sm">12X DE</span>
               <div className="flex gap-1 items-start uppercase justify-center">
-                <p className="text-9xl font-black">32</p>
+                <p className="text-9xl font-black">29</p>
                 <div className="flex flex-col">
                   <span className="text-5xl font-black">90</span>
                   <span className="text-lg font-medium">/mês</span>

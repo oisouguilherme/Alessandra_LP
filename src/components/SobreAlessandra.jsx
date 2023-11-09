@@ -10,25 +10,25 @@ export function SobreAlessandra() {
             Quem é Alessandra Palma ?
           </h2>
           <p className="text-justify">
-            Alessandra é uma Personal Trainer apaixonada e comprometida em
-            fornecer treinos personalizados de alta qualidade. Sua experiência
-            consolidada e abordagem singular capacitam indivíduos a atingirem
-            seus objetivos de saúde e condicionamento físico.
+            Alessandra é uma Personal Trainner apaixonada por resultados!
+            <br />
+            Sua experiência conta com mais de 10 anos de carreira e abordagem
+            ampla, capacitando os alunos a alcançarem seus objetivos de saúde e
+            condicionamento físico. Seja emagrecimento acelerado ou ganho de
+            massa muscular.
           </p>
           <p className="text-justify">
-            Com a recente incursão em treinos ao vivo no Instagram, Alessandra
-            oferece uma oportunidade única para você se envolver em uma jornada
-            de fitness personalizada, onde cada sessão é uma chance de superar
-            limites e alcançar seu melhor desempenho. Sua paixão por promover um
-            estilo de vida saudável é evidente em cada treino ao vivo,
-            permitindo que você mergulhe em uma experiência de treino interativo
-            e eficaz.
+            Com esse programa de treinos ao vivo no Instagram, Alessandra
+            oferece uma oportunidade única para você se superar em uma jornada
+            personalizada, quando e de onde você estiver. Explore um novo mundo
+            de condicionamento físico e bem-estar sob a orientação de
+            Alessandra.
           </p>
           <p className="text-justify">
-            Explore um novo mundo de condicionamento físico e bem-estar sob a
-            orientação de Alessandra. Junte-se a nós no Instagram para vivenciar
-            treinos ao vivo de qualidade excepcional e embarque em uma jornada
-            rumo aos seus objetivos de saúde, fitness e bem-estar.
+            Junte-se a nós no Instagram para participar de treinos ao vivo e
+            suporte personalizado, com exercícios para treinar em casa ou na
+            academia. Embarque em uma jornada rumo aos seus objetivos. A sua
+            melhor versão está aqui!
           </p>
         </div>
         <div className="flex justify-center md:justify-end">

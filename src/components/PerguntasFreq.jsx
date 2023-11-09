@@ -22,7 +22,7 @@ export function PerguntasFreq() {
                   "Quais os planos existentes apenas do Perfil Privado Alê Treinos?"
                 }
                 resposta={
-                  "Plano Anual, 12x de R$32,90 ou R$394,80 a vista. Plano Semestral, 6x e R$49,90 ou R$299,40 a vista. Plano Mensal, por apenas R$99,90/mês"
+                  "Plano Anual, 12x de R$29,90 ou R$394,80 a vista. Plano Semestral, 6x e R$49,90 ou R$299,40 a vista. Plano Mensal, por apenas R$99,90/mês"
                 }
               />
               <Card
