@@ -99,12 +99,9 @@ export function TemPrograma() {
         </div>
 
         <div className="flex pt-8 gap-4 justify-center flex-wrap">
-          <div className="sm:w-96">
-            <Image src={ImageAntesDepois} />
-          </div>
-          <div className="sm:w-96">
-            <Image src={ImageAntesDepois2} />
-          </div>
+          <Image src={ImageAntesDepois} className="sm:w-96" />
+
+          <Image src={ImageAntesDepois2} className="sm:w-96" />
         </div>
       </div>
     </section>
