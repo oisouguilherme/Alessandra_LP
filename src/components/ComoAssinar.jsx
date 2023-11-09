@@ -62,9 +62,13 @@ export function ComoAssinar() {
                 </p>
               </div>
             </div>
-            <button className="bg-green-500 hover:bg-green-400 duration-300 w-full text-white py-3 rounded-md font-bold">
+            <a
+              href="https://pay.hotmart.com/M81294188Q"
+              target="_blank"
+              className="bg-green-500 hover:bg-green-400 block text-center duration-300 w-full text-white py-3 rounded-md font-bold"
+            >
               QUERO TREINAR COM A ALÊ
-            </button>
+            </a>
             <p className="text-white text-center">
               A partir de <strong>R$29,90/mês</strong> no plano anual
             </p>

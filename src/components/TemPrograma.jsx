@@ -89,12 +89,13 @@ export function TemPrograma() {
                 </div>
               </div>
             </div>
-            <Link
+            <a
               className="bg-green-500 uppercase hover:bg-green-400 duration-300 w-full text-white py-3 rounded-md font-bold block text-center mt-6"
-              href={""}
+              href={"https://pay.hotmart.com/M81294188Q"}
+              target="_blank"
             >
               Quero treinar com Alessandra
-            </Link>
+            </a>
           </div>
         </div>
 

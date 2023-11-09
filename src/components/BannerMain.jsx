@@ -19,9 +19,13 @@ export function BannerMain() {
             data-aos="fade-left"
             data-aos-easing="linear"
           >
-            <button className="bg-green-500 hover:bg-green-400 duration-300 text-white w-full py-2 sm:py-4 text-sm sm:text-base px-24 rounded-md font-medium uppercase">
+            <a
+              href="https://pay.hotmart.com/M81294188Q"
+              target="_blank"
+              className="bg-green-500 hover:bg-green-400 duration-300 text-white w-full py-2 sm:py-4 text-sm sm:text-base px-24 rounded-md font-medium uppercase"
+            >
               QUERO TREINAR COM A ALÊ
-            </button>
+            </a>
             <p>
               A partir de <strong>R$29,90/mês</strong> no plano anual
             </p>

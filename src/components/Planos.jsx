@@ -31,7 +31,8 @@ export function Planos() {
             <div className="flex flex-col items-center px-4 space-y-2 uppercase text-xs ">
               <p>7 dias de garantia</p>
               <Link
-                href={""}
+                href={"https://pay.hotmart.com/M81294188Q"}
+                target="_blank"
                 className="bg-green-500 hover:bg-green-500/90 duration-300 text-white w-full text-center py-2 rounded-md uppercase font-bold text-lg"
               >
                 Eu quero Assinar
@@ -61,7 +62,8 @@ export function Planos() {
             <div className="flex flex-col items-center px-4 space-y-2 uppercase text-xs">
               <p>7 dias de garantia</p>
               <Link
-                href={""}
+                href={"https://pay.hotmart.com/M81294188Q"}
+                target="_blank"
                 className="bg-green-500 hover:bg-green-500/90 duration-300 text-white w-full text-center py-2 rounded-md uppercase font-bold text-lg"
               >
                 Eu quero Assinar
@@ -87,7 +89,8 @@ export function Planos() {
             <div className="flex flex-col items-center px-4 space-y-2 uppercase text-xs">
               <p>7 dias de garantia</p>
               <Link
-                href={""}
+                href={"https://pay.hotmart.com/M81294188Q"}
+                target="_blank"
                 className="bg-green-500 hover:bg-green-500/90 duration-300 text-white w-full text-center py-2 rounded-md uppercase font-bold text-lg"
               >
                 Eu quero Assinar
