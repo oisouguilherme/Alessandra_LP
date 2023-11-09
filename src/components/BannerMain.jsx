@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 export function BannerMain() {
   return (
-    <div className="bg-[url('/bannerMobile.png')] md:bg-[url('/banner.png')] bg-no-repeat bg-cover bg-center md:bg-top relative">
+    <div className="bg-[url('/bannerMobile.png')] md:bg-[url('/banner2.png')] bg-no-repeat bg-cover bg-center  relative">
       <Link to="comprar" smooth={true}>
         <Image
           src={"/bannerMobile.png"}
