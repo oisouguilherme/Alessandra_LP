@@ -3,8 +3,8 @@ import { useState } from "react";
 
 export function PerguntasFreq() {
   return (
-    <div className="bg-[url('/banner.png')] bg-cover bg-right md:bg-center bg-no-repeat">
-      <div className="md:bg-black/60 bg-black/80 w-full ">
+    <div className="bg-[url('/banner.png')] bg-cover bg-right md:bg-center bg-no-repeat md:h-[1000px]">
+      <div className="md:bg-black/60 bg-black/80 w-full md:h-full">
         <div className="max-w-6xl mx-auto pb-24 pt-32 px-4">
           <div className="grid md:grid-cols-2 items-end">
             <div></div>
