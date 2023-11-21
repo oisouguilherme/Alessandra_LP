@@ -20,7 +20,7 @@ export function BannerMain() {
             data-aos-easing="linear"
           >
             <a
-              href="https://pay.hotmart.com/M81294188Q"
+              href="https://pay.hotmart.com/M81294188Q?off=u9i14bx1&bid=1700597420698"
               target="_blank"
               className="bg-green-500 hover:bg-green-400 duration-300 text-white w-full py-2 sm:py-4 text-sm sm:text-base px-24 rounded-md font-medium uppercase"
             >

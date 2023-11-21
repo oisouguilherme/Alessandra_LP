@@ -91,7 +91,9 @@ export function TemPrograma() {
             </div>
             <a
               className="bg-green-500 uppercase hover:bg-green-400 duration-300 w-full text-white py-3 rounded-md font-bold block text-center mt-6"
-              href={"https://pay.hotmart.com/M81294188Q"}
+              href={
+                "https://pay.hotmart.com/M81294188Q?off=u9i14bx1&bid=1700597420698"
+              }
               target="_blank"
             >
               Quero treinar com Alessandra
