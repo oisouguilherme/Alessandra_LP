@@ -70,7 +70,7 @@ export function ComoAssinar() {
               QUERO TREINAR COM A ALÊ
             </a>
             <p className="text-white text-center">
-              A partir de <strong>R$29,90/mês</strong> no plano anual
+              A partir de <strong>R$49,90/mês</strong> no plano anual
             </p>
           </div>
           <div

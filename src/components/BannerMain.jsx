@@ -35,7 +35,7 @@ export function BannerMain() {
               QUERO TREINAR COM A ALÊ
             </a>
             <p>
-              A partir de <strong>R$29,90/mês</strong> no plano anual
+              A partir de <strong>R$49,90/mês</strong> no plano anual
             </p>
           </div>
         </div>
