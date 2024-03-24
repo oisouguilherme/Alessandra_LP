@@ -63,7 +63,7 @@ export function ComoAssinar() {
               </div>
             </div>
             <a
-              href="https://pay.hotmart.com/M81294188Q?off=u9i14bx1&bid=1700597420698"
+              href="https://wa.me/5538997289879?off=u9i14bx1&bid=1700597420698"
               target="_blank"
               className="bg-green-500 hover:bg-green-400 block text-center duration-300 w-full text-white py-3 rounded-md font-bold"
             >

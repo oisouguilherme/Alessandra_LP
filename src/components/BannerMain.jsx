@@ -12,7 +12,7 @@ export function BannerMain() {
         />
         <div className="flex justify-center">
           <a
-            href="https://pay.hotmart.com/M81294188Q?off=u9i14bx1&bid=1700597420698"
+            href="https://wa.me/5538997289879?off=u9i14bx1&bid=1700597420698"
             target="_blank"
             className="bg-green-500 hover:bg-green-400 duration-300 text-white w-[80%] py-4 text-sm sm:text-base rounded-md font-medium uppercase absolute bottom-12 text-center"
           >
@@ -28,7 +28,7 @@ export function BannerMain() {
             data-aos-easing="linear"
           >
             <a
-              href="https://pay.hotmart.com/M81294188Q?off=u9i14bx1&bid=1700597420698"
+              href="https://wa.me/5538997289879?off=u9i14bx1&bid=1700597420698"
               target="_blank"
               className="bg-green-500 hover:bg-green-400 duration-300 text-white w-full py-2 sm:py-4 text-sm sm:text-base px-24 rounded-md font-medium uppercase"
             >
