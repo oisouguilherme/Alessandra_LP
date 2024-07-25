@@ -117,7 +117,7 @@ export function TemPrograma() {
           <h2 className="text-3xl font-bold text-center pb-8 uppercase max-w-3xl mx-auto">
             Estes são
             <b className="text-[#5E0583]"> alguns dos resultados</b> alcançados
-            com o Método Alê Treinos:
+            com o nosso Método:
           </h2>
           <Swiper
             effect={"coverflow"}
