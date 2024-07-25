@@ -1,9 +1,21 @@
 import Image from "next/image";
-import Link from "next/link";
 import Logo from "../assets/logo.png";
 import { IconCheck2 } from "@/assets/Icons";
-import ImageAntesDepois from "../assets/antesDepois.png";
-import ImageAntesDepois2 from "../assets/antesDepois2.png";
+
+import ImageAntesDepois1 from "../assets/antesEDepois/1.png";
+import ImageAntesDepois2 from "../assets/antesEDepois/2.png";
+import ImageAntesDepois3 from "../assets/antesEDepois/3.jpg";
+import ImageAntesDepois4 from "../assets/antesEDepois/4.jpg";
+import ImageAntesDepois5 from "../assets/antesEDepois/5.jpg";
+import ImageAntesDepois6 from "../assets/antesEDepois/6.png";
+import ImageAntesDepois7 from "../assets/antesEDepois/7.jpg";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
+
+import { EffectCoverflow, Pagination } from "swiper/modules";
 
 export function TemPrograma() {
   return (
@@ -11,7 +23,7 @@ export function TemPrograma() {
       <div className="max-w-6xl mx-auto py-32 px-4">
         <h2 className="text-3xl font-bold text-center pb-8 uppercase">
           O que você encontra no <br />
-          <span className="text-[#5E0583]">programa:</span>
+          <span className="v">programa:</span>
         </h2>
         <div className="">
           <div className="px-4 sm:px-8 py-4 text-white w-full max-w-3xl rounded-md bg-gradient-to-bl from-purple-600 to-[#5E0583] mx-auto">
@@ -96,15 +108,82 @@ export function TemPrograma() {
               }
               target="_blank"
             >
-              Quero treinar com Alessandra
+              QUERO alcançar meus resultados
             </a>
           </div>
         </div>
 
-        <div className="flex pt-8 gap-4 justify-center flex-wrap">
-          <Image src={ImageAntesDepois} className="sm:w-96" />
-
-          <Image src={ImageAntesDepois2} className="sm:w-96" />
+        <div className="max-w-5xl mx-auto pt-32">
+          <h2 className="text-3xl font-bold text-center pb-8 uppercase max-w-3xl mx-auto">
+            Estes são
+            <b className="text-[#5E0583]"> alguns dos resultados</b> alcançados
+            com o Método Alê Treinos:
+          </h2>
+          <Swiper
+            effect={"coverflow"}
+            grabCursor={true}
+            centeredSlides={true}
+            breakpoints={{
+              440: {
+                slidesPerView: 2,
+              },
+              1024: {
+                slidesPerView: 3,
+              },
+            }}
+            coverflowEffect={{
+              rotate: 50,
+              stretch: 0,
+              depth: 100,
+              modifier: 1,
+              slideShadows: true,
+            }}
+            //pagination={true}
+            modules={[EffectCoverflow, Pagination]}
+          >
+            <SwiperSlide>
+              <Image
+                src={ImageAntesDepois1}
+                className="w-96 object-cover h-96"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                src={ImageAntesDepois2}
+                className="w-96 object-cover h-96"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                src={ImageAntesDepois3}
+                className="w-96 object-cover h-96"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                src={ImageAntesDepois4}
+                className="w-96 object-cover h-96"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                src={ImageAntesDepois5}
+                className="w-96 object-cover h-96"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                src={ImageAntesDepois6}
+                className="w-96 object-cover h-96"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                src={ImageAntesDepois7}
+                className="w-96 object-cover h-96"
+              />
+            </SwiperSlide>
+          </Swiper>
         </div>
       </div>
     </section>

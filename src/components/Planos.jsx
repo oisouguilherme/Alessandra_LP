@@ -12,17 +12,17 @@ export function Planos() {
         <div className="flex justify-center flex-wrap items-center gap-4">
           <div className="rounded-lg bg-gradient-to-tl from-purple-600 to-[#5E0583] w-full sm:w-80 py-12 text-white hover:scale-105 duration-300 cursor-pointer">
             <h3 className="uppercase text-lg font-medium text-center">
-              PLANO ANUAL
+              PLANO trimestral
             </h3>
             <div className="text-center py-8">
-              <span className="text-sm">12X DE</span>
+              <span className="text-sm">3X DE</span>
               <div className="flex gap-1 items-start uppercase justify-center">
-                <p className="text-9xl font-black">49</p>
+                <p className="text-9xl font-black">99</p>
                 <div className="flex flex-col">
-                  <span className="text-5xl font-black">90</span>
+                  <span className="text-5xl font-black">96</span>
                   <span className="text-lg font-medium">/mês</span>
                   <span className="text-xs">
-                    ou 598,80 <br /> À vista
+                    ou 299,90 <br /> À vista
                   </span>
                 </div>
               </div>
@@ -31,9 +31,7 @@ export function Planos() {
             <div className="flex flex-col items-center px-4 space-y-2 uppercase text-xs ">
               <p>7 dias de garantia</p>
               <Link
-                href={
-                  "https://wa.me/5538997289879?off=u9i14bx1&bid=1700597420698"
-                }
+                href={"https://pay.hotmart.com/M81294188Q?off=u9i14bx1"}
                 target="_blank"
                 className="bg-green-500 hover:bg-green-500/90 duration-300 text-white w-full text-center py-2 rounded-md uppercase font-bold text-lg"
               >
@@ -74,7 +72,7 @@ export function Planos() {
             </div>
           </div> */}
 
-          <div className="rounded-lg border-4 border-[#5E0583] w-full sm:w-72 py-8 hover:scale-105 duration-300 cursor-pointer">
+          {/* <div className="rounded-lg border-4 border-[#5E0583] w-full sm:w-72 py-8 hover:scale-105 duration-300 cursor-pointer">
             <h3 className="uppercase text-lg font-medium text-center">
               PLANO MENSAL
             </h3>
@@ -99,7 +97,7 @@ export function Planos() {
               </Link>
               <Payments />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

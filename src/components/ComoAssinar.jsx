@@ -65,12 +65,12 @@ export function ComoAssinar() {
             <a
               href="https://wa.me/5538997289879?off=u9i14bx1&bid=1700597420698"
               target="_blank"
-              className="bg-green-500 hover:bg-green-400 block text-center duration-300 w-full text-white py-3 rounded-md font-bold"
+              className="bg-green-500 hover:bg-green-400 block uppercase text-center duration-300 w-full text-white py-3 rounded-md font-bold"
             >
-              QUERO TREINAR COM A ALÊ
+              QUERO alcançar meus resultados
             </a>
             <p className="text-white text-center">
-              A partir de <strong>R$49,90/mês</strong> no plano anual
+              A partir de <strong>R$99,96/mês</strong> no plano trimestral
             </p>
           </div>
           <div

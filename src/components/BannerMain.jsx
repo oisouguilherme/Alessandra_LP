@@ -16,7 +16,7 @@ export function BannerMain() {
             target="_blank"
             className="bg-green-500 hover:bg-green-400 duration-300 text-white w-[80%] py-4 text-sm sm:text-base rounded-md font-medium uppercase absolute bottom-12 text-center"
           >
-            QUERO TREINAR COM A ALÊ
+            QUERO alcançar meus resultados
           </a>
         </div>
       </div>
@@ -32,10 +32,10 @@ export function BannerMain() {
               target="_blank"
               className="bg-green-500 hover:bg-green-400 duration-300 text-white w-full py-2 sm:py-4 text-sm sm:text-base px-24 rounded-md font-medium uppercase"
             >
-              QUERO TREINAR COM A ALÊ
+              QUERO alcançar meus resultados
             </a>
             <p>
-              A partir de <strong>R$49,90/mês</strong> no plano anual
+              A partir de <strong>R$99,96/mês</strong> no plano trimestral
             </p>
           </div>
         </div>
