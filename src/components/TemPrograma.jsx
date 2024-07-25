@@ -144,43 +144,43 @@ export function TemPrograma() {
             <SwiperSlide>
               <Image
                 src={ImageAntesDepois1}
-                className="w-96 object-cover h-96"
+                className="w-96 object-contain h-96"
               />
             </SwiperSlide>
             <SwiperSlide>
               <Image
                 src={ImageAntesDepois2}
-                className="w-96 object-cover h-96"
+                className="w-96 object-contain h-96"
               />
             </SwiperSlide>
             <SwiperSlide>
               <Image
                 src={ImageAntesDepois3}
-                className="w-96 object-cover h-96"
+                className="w-96 object-contain h-96"
               />
             </SwiperSlide>
             <SwiperSlide>
               <Image
                 src={ImageAntesDepois4}
-                className="w-96 object-cover h-96"
+                className="w-96 object-contain h-96"
               />
             </SwiperSlide>
             <SwiperSlide>
               <Image
                 src={ImageAntesDepois5}
-                className="w-96 object-cover h-96"
+                className="w-96 object-contain h-96"
               />
             </SwiperSlide>
             <SwiperSlide>
               <Image
                 src={ImageAntesDepois6}
-                className="w-96 object-cover h-96"
+                className="w-96 object-contain h-96"
               />
             </SwiperSlide>
             <SwiperSlide>
               <Image
                 src={ImageAntesDepois7}
-                className="w-96 object-cover h-96"
+                className="w-96 object-contain h-96"
               />
             </SwiperSlide>
           </Swiper>
