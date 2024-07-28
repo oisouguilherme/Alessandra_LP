@@ -63,14 +63,14 @@ export function ComoAssinar() {
               </div>
             </div>
             <a
-              href="https://wa.me/5538997289879?off=u9i14bx1&bid=1700597420698"
+              href="https://pay.hotmart.com/M81294188Q?off=u9i14bx1"
               target="_blank"
               className="bg-green-500 hover:bg-green-400 block uppercase text-center duration-300 w-full text-white py-3 rounded-md font-bold"
             >
               QUERO alcançar meus resultados
             </a>
             <p className="text-white text-center">
-              A partir de <strong>R$99,96/mês</strong> no plano trimestral
+              A partir de <strong>R$99,97/mês</strong> no plano trimestral
             </p>
           </div>
           <div

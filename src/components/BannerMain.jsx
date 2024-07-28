@@ -2,19 +2,19 @@ import Image from "next/image";
 
 export function BannerMain() {
   return (
-    <div className="bg-[url('/bannerMobile.png')] md:bg-[url('/banner2.png')] bg-no-repeat bg-cover bg-center  relative">
-      <div className="relative">
+    <div className="md:bg-[url('/banner.jpg')] bg-no-repeat bg-cover bg-center  relative">
+      <div className="md:hidden">
         <Image
-          src={"/bannerMobile.png"}
+          src={"/banner.jpg"}
           width={800}
           height={800}
           className="w-full md:hidden"
         />
         <div className="flex justify-center">
           <a
-            href="https://wa.me/5538997289879?off=u9i14bx1&bid=1700597420698"
+            href="https://pay.hotmart.com/M81294188Q?off=u9i14bx1"
             target="_blank"
-            className="bg-green-500 hover:bg-green-400 duration-300 text-white w-[80%] py-4 text-sm sm:text-base rounded-md font-medium uppercase absolute bottom-12 text-center"
+            className="bg-green-500 hover:bg-green-400 duration-300 text-white w-[80%] py-4 text-sm sm:text-base rounded-md font-medium uppercase text-center mt-4"
           >
             QUERO alcançar meus resultados
           </a>
@@ -28,14 +28,14 @@ export function BannerMain() {
             data-aos-easing="linear"
           >
             <a
-              href="https://wa.me/5538997289879?off=u9i14bx1&bid=1700597420698"
+              href="https://pay.hotmart.com/M81294188Q?off=u9i14bx1"
               target="_blank"
               className="bg-green-500 hover:bg-green-400 duration-300 text-white w-full py-2 sm:py-4 text-sm sm:text-base px-24 rounded-md font-medium uppercase"
             >
               QUERO alcançar meus resultados
             </a>
             <p>
-              A partir de <strong>R$99,96/mês</strong> no plano trimestral
+              A partir de <strong>R$99,97/mês</strong> no plano trimestral
             </p>
           </div>
         </div>

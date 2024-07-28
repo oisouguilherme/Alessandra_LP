@@ -19,7 +19,7 @@ export function Planos() {
               <div className="flex gap-1 items-start uppercase justify-center">
                 <p className="text-9xl font-black">99</p>
                 <div className="flex flex-col">
-                  <span className="text-5xl font-black">96</span>
+                  <span className="text-5xl font-black">97</span>
                   <span className="text-lg font-medium">/mês</span>
                   <span className="text-xs">
                     ou 299,90 <br /> À vista
